@@ -1,0 +1,30 @@
+trackball:
+  label: 'Trackball'
+  permalink: '/trackball'
+  description: 'Devices and pages related to trackballs.'
+
+keyboard:
+  label: 'Keyboard'
+  permalink: '/keyboard'
+  description: 'Devices and pages related to mechanical keyboards.'
+
+pcb:
+  label: 'PCB'
+  permalink: '/pcb'
+  description: 'Devices and pages related to custom printed circuit boards (such as build instructions, bill of material or schematics).'
+
+3dprinting:
+  label: '3D Printing'
+  permalink: '/3dprinting'
+  description: 'Devices and pages related to 3D Printing (such as custom cases or assembly instruction).'
+
+qmk:
+  label: 'QMK'
+  permalink: '/qmk'
+  description: 'Devices and pages containing information about a QMK based firmware.'
+
+vial:
+  label: 'Vial'
+  permalink: '/vial'
+  description: 'Devices and pages containing information about a Vial based firmware.'
+# NOTE: Should we add licenses as tags ? Such as the CC-BY-NC-SA-4.0 and CERN-OHL-S-2.0

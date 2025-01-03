@@ -1,0 +1,32 @@
+# Default rules
+*               text=auto
+*.md            text
+*.txt           text
+
+# Images rules
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.svg           binary
+*.ico           binary
+*.pdf           binary
+
+# Config file rules
+*.json          text
+*.toml          text
+*.yml           text
+*.yaml          text
+
+# Script rules
+*.sh            text
+
+# React / Web rules
+*.html          text
+*.js            text
+*.ts            text
+*.tsx           text
+*.css           text
+*.scss          text
+*.lock          -diff linguist-generated=true
+*-lock.json     -diff linguist-generated=true
+*-lock.yaml     -diff linguist-generated=true

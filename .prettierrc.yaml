@@ -1,0 +1,5 @@
+# .prettierrc.yaml: https://prettier.io/docs/en/configuration.html
+trailingComma: 'all'
+tabWidth: 2
+semi: false
+singleQuote: true
