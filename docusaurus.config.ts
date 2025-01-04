@@ -4,10 +4,10 @@ import type * as Preset from '@docusaurus/preset-classic'
 
 const config: Config = {
   title: 'LambdaKB.dev',
-  tagline: 'Open-Source mechanical keyboard and other inputs devices.',
+  tagline: 'Open-Source mechanical keyboards and other inputs devices.',
   favicon: 'favicon.svg',
 
-  url: 'https://lambdakb.github.io',
+  url: 'https://lambdakb.dev',
   baseUrl: '/',
 
   onBrokenLinks: 'warn',
@@ -79,9 +79,9 @@ const config: Config = {
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
-      respectPrefersColorScheme: false,
+      respectPrefersColorScheme: true,
     },
-    image: 'img/social-card.jpg',
+    image: 'img/social-card.png',
     metadata: [
       {
         name: 'keywords',
@@ -93,7 +93,7 @@ const config: Config = {
       { name: 'twitter:title', content: 'LambdaKB.dev' },
       {
         name: 'twitter:description',
-        content: 'Open-Source mechanical keyboard and other inputs devices.',
+        content: 'Open-Source mechanical keyboards and other inputs devices.',
       },
     ],
     docs: {
