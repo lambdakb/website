@@ -39,7 +39,7 @@ const config: Config = {
         path: 'docs/general',
         routeBasePath: 'docs',
         sidebarPath: './sidebars-general.ts',
-        editUrl: 'https://github.com/lambdakb/lambdakb.github.io/tree/main/',
+        // editUrl: null,
       },
     ],
     [
@@ -49,7 +49,7 @@ const config: Config = {
         path: 'docs/devices',
         routeBasePath: 'devices',
         sidebarPath: './sidebars-devices.ts',
-        editUrl: 'https://github.com/lambdakb/lambdakb.github.io/tree/main/',
+        // editUrl: null,
         onInlineTags: 'warn',
         tags: 'tags.yaml',
       },
@@ -216,12 +216,20 @@ const config: Config = {
           title: 'Social',
           items: [
             {
-              label: 'Blog',
-              href: 'https://blog.userctl.xyz',
+              label: 'Contact us',
+              href: 'mailto:orax[at]lambdakb.dev',
             },
             {
               label: 'GitHub',
               href: 'https://github.com/lambdakb',
+            },
+            {
+              label: 'Bluesky',
+              href: 'https://bsky.app/profile/orax.bsky.social',
+            },
+            {
+              label: 'Twitter / X',
+              href: 'https://x.com/_0rax',
             },
           ],
         },
@@ -233,12 +241,24 @@ const config: Config = {
               href: 'https://blog.userctl.xyz/about/',
             },
             {
-              label: 'Bluesky',
-              href: 'https://bsky.app/profile/orax.bsky.social',
+              label: 'Personal Blog',
+              href: 'https://blog.userctl.xyz',
+            },
+            // {
+            //   label: 'Bluesky',
+            //   href: 'https://bsky.app/profile/orax.bsky.social',
+            // },
+            // {
+            //   label: 'Twitter / X',
+            //   href: 'https://x.com/_0rax',
+            // },
+            {
+              label: 'Printables',
+              href: 'https://www.printables.com/@orax',
             },
             {
-              label: 'Twitter / X',
-              href: 'https://x.com/_0rax',
+              label: 'MakerWorld',
+              href: 'https://makerworld.com/en/@orax',
             },
           ],
         },
