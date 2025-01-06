@@ -39,7 +39,8 @@ const config: Config = {
         path: 'docs/general',
         routeBasePath: 'docs',
         sidebarPath: './sidebars-general.ts',
-        // editUrl: null,
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: true,
       },
     ],
     [
@@ -49,9 +50,10 @@ const config: Config = {
         path: 'docs/devices',
         routeBasePath: 'devices',
         sidebarPath: './sidebars-devices.ts',
-        // editUrl: null,
         onInlineTags: 'warn',
         tags: 'tags.yaml',
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: true,
       },
     ],
     [
