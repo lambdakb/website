@@ -1,8 +1,12 @@
 ---
 slug: /lt6c/pcb
-sidebar_label: PCB
 title: LT6C PCB
+sidebar_label: PCB
 hide_table_of_contents: true
+keywords:
+  - pcb
+  - trackball
+draft: true
 ---
 
 <head>
