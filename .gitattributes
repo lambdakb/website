@@ -30,3 +30,8 @@
 *.lock          -diff linguist-generated=true
 *-lock.json     -diff linguist-generated=true
 *-lock.yaml     -diff linguist-generated=true
+
+# Linguist configuration
+docs/**         -linguist-documentation
+*.md            linguist-detectable=true
+*.mdx           linguist-detectable=true
