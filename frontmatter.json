@@ -24,6 +24,12 @@
       "previewPath": "/devices"
     },
     {
+      "title": "extras",
+      "path": "[[workspace]]/docs/devices/extras",
+      "filePrefix": "",
+      "previewPath": "/devices"
+    },
+    {
       "title": "devices",
       "path": "[[workspace]]/docs/devices",
       "filePrefix": "",

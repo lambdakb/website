@@ -198,15 +198,15 @@ const config: Config = {
           items: [
             {
               label: 'LK23M Numpad & MacroPad',
-              to: '/devices/lk23m',
+              to: '/devices/lk23m/',
             },
             {
               label: 'LT6C 6 Keys Trackball',
-              to: '/devices/lt6c',
+              to: '/devices/lt6c/',
             },
             {
               label: 'LT7DK PMW3360 DevKit',
-              to: '/devices/lt7dk',
+              to: '/devices/lt7dk/',
             },
             {
               label: 'Discover more…',
@@ -265,7 +265,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} LambdaKB.dev</br>Documentation Distributed under CC-BY-SA-4.0`,
+      copyright: `Copyright © ${new Date().getFullYear()} LambdaKB.dev</br>The content of this website is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.`,
     },
     prism: {
       theme: prismThemes.github,

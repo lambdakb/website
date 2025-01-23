@@ -1,10 +1,10 @@
 ---
-slug: /lk23m
+slug: /lk23m/
 title: LK23M Numpad & MacroPad
 sidebar_label: LK23M
 description: Custom PCB for a combined Numpad & Media MacroPad with volume knob
 tags:
-  - trackball
+  - keyboard
   - pcb
   - 3dprinting
 keywords:

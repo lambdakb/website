@@ -1,5 +1,5 @@
 ---
-slug: /lt7dk
+slug: /lt7dk/
 title: LT7DK PMW3360 DevKit
 sidebar_label: LT7DK
 description: PCB based DevKit for the PMW3360 mouse sensor
