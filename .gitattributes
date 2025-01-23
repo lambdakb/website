@@ -35,3 +35,4 @@
 docs/**         -linguist-documentation
 *.md            linguist-detectable=true
 *.mdx           linguist-detectable=true
+static/js/*.js  linguist-vendored
